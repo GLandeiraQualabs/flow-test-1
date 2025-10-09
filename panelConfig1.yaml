@@ -4,9 +4,10 @@
 # YAML Aliases to simplify maintenance
 
 anchorLinks:
-  - link: &grafana-home
-      url: "https://grafana.com/"
-      params: "time"
+  - link: &flow-panel-23
+      # Same dashboard, focus panel 23, preserve time & variables
+      url: "${__url.path}?viewPanel=23${__url_time_range}&${__all_variables}"
+      target: "_self"   # or "_blank" if you want a new tab
 
 #------------------------------------------------------------------------------
 # Panel Config
@@ -15,7 +16,7 @@ cellIdPreamble: "cell-"
 cells: 
   drawio:
     link:
-      url: "https://app.diagrams.net/?p=svgdata"
+      url: "*flow-panel-23"
   docs:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
