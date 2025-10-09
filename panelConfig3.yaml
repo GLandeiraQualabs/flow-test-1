@@ -17,6 +17,10 @@ cells:
         - {color: "green", level: 0}
         - {color: "yellow", level: 1}
         - {color: "red", level: 2}
+      link:
+        url: "https://erikaalvarez.grafana.net/d/video-streaming-dashboard/video-streaming-dashboard?orgId=1&viewPanel=2&from=now-6h&to=now&timezone=browser&var-server="
+        params: "none"          # we already set from/to in the URL; don't append more
+        sameTab: true           # v1.14.0+ opens in same tab unless Ctrl/Shift is held
   encoder2:
     dataRef: "encoder2_health"
     label:
@@ -137,36 +141,78 @@ cells:
         - {color: "green", level: 0}
         - {color: "yellow", level: 1}
         - {color: "red", level: 2}
+  # temperature:
+  #   dataRef: "temperature"
+  #   label:
+  #     separator: "cr"
+  #     units: "none"
+  #     decimalPoints: 0
+  #   fillColor:
+  #     gradientMode: "hue"
+  #     thresholds:
+  #       - {color: "green", level: 0}
+  #       - {color: "yellow", level: 40}
+  #       - {color: "red", level: 60}
   temperature:
-    dataRef: "temperature"
+    bespoke:
+      dataRefs:
+        - "temperature"
+      formulas:
+        - "scale = string(0.5 + max(0.0, min(1.0, data['temperature'] / 1000)))"
+        - "ringBoundary = round(data['temperature'] / 200) * 200"
+        #- "utils.log('log scale and data to console:', scale, ringBoundary, data)"
+      drives:
+        # Capture the range-ring origin on the 'ellipse' element
+        - elementName: "ellipse"
+          attribsGet:
+            rangeRingOriginX: "cx"
+            rangeRingOriginY: "cy"
+
+        # Scale the range-ring on the outer 'g' around the ellipse origin. Scaling on the outer 'g' ensures
+        # everything within such as the label is kept coherently positioned.
+        - elementName: "g"
+          elementPosition: 1
+          attribsSet:
+            transform: "concat('scale(', scale, ' ', scale, ')')"
+            'transform-origin': "concat(rangeRingOriginX, ' ', rangeRingOriginY)"
+  power:
+    bespokeDataRef: "power"
     label:
-      separator: "cr"
-      units: "none"
-      decimalPoints: 0
+      separator: "replace"
+      units: "ops"
     labelColor:
-      gradientMode: "hue"
-      thresholds:
+      thresholds: 
         - {color: "green", level: 0}
         - {color: "yellow", level: 40}
-        - {color: "red", level: 60}
-  power:
-    dataRef: "power"
-    label:
-      separator: "cr"
-      units: "none"
-      decimalPoints: 0
-    labelColor:
-      gradientMode: "hue"
-      thresholds:
-        - {color: "green", level: 0}
-        - {color: "red", level: 1}
+        - {color: "red", level: 80}
+    bespoke:
+      dataRefs:
+        - "test-data-large-sin"
+      formulas:
+        - "scale = string(0.5 + max(0.0, min(1.0, data['power'] / 1000)))"
+        - "ringBoundary = round(data['power'] / 200) * 200"
+        #- "utils.log('log scale and data to console:', scale, ringBoundary, data)"
+      drives:
+        # Capture the range-ring origin on the 'ellipse' element
+        - elementName: "ellipse"
+          attribsGet:
+            rangeRingOriginX: "cx"
+            rangeRingOriginY: "cy"
+
+        # Scale the range-ring on the outer 'g' around the ellipse origin. Scaling on the outer 'g' ensures
+        # everything within such as the label is kept coherently positioned.
+        - elementName: "g"
+          elementPosition: 1
+          attribsSet:
+            transform: "concat('scale(', scale, ' ', scale, ')')"
+            'transform-origin': "concat(rangeRingOriginX, ' ', rangeRingOriginY)"
   cpu:
     dataRef: "cpu"
     label:
       separator: "cr"
       units: "none"
       decimalPoints: 0
-    labelColor:
+    fillColor:
       gradientMode: "hue"
       thresholds:
         - {color: "green", level: 0}
@@ -178,7 +224,7 @@ cells:
       separator: "cr"
       units: "none"
       decimalPoints: 0
-    labelColor:
+    fillColor:
       gradientMode: "hue"
       thresholds:
         - {color: "green", level: 0}
@@ -190,14 +236,14 @@ cells:
       separator: "cr"
       units: "none"
       decimalPoints: 0
-    labelColor:
+    fillColor:
       gradientMode: "hue"
       thresholds:
         - {color: "green", level: 0}
         - {color: "yellow", level: 1}
         - {color: "red", level: 2}
   disaster:
-    dataRef: "health_multicast"
+    dataRef: "disaster"
     label:
       separator: "cr"
       units: "none"
