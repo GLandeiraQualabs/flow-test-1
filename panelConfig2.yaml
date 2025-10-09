@@ -20,11 +20,7 @@ cells:
       sameTab: true           # v1.14.0+ opens in same tab unless Ctrl/Shift is held
   docs:
     link:
-      action: "popup"
-      title: "Video streaming — Panel 2"
-      url: "/d-solo/video-streaming-dashboard/video-streaming-dashboard?orgId=1&panelId=2&from=now-6h&to=now&timezone=browser&var-server="
-      width: 1100
-      height: 700
+      url: "/d/video-streaming-dashboard/video-streaming-dashboard?orgId=1&viewPanel=2&from=now-6h&to=now&timezone=browser&var-server="
   inbox_depth:
     dataRef: "test-data-large-sin"
     label:
