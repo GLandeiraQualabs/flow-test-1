@@ -20,7 +20,7 @@ cells:
       sameTab: true           # v1.14.0+ opens in same tab unless Ctrl/Shift is held
   docs:
     link:
-      url: "?viewPanel=2&from=now-6h&to=now&timezone=browser&var-server="
+      url: "/d/video-streaming-dashboard/video-streaming-dashboard?viewPanel=2&from=now-6h&to=now&timezone=browser&var-server="
       params: "none"
       sameTab: true
   inbox_depth:
