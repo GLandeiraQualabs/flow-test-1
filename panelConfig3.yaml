@@ -15,5 +15,228 @@ cells:
       gradientMode: "hue"
       thresholds:
         - {color: "green", level: 0}
-        - {color: "orange", level: 500}
-        - {color: "red", level: 1000}
+        - {color: "yellow", level: 1}
+        - {color: "red", level: 2}
+  encoder2:
+    dataRef: "encoder2_health"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "yellow", level: 1}
+        - {color: "red", level: 2}
+  encoder3:
+    dataRef: "encoder3_health"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "yellow", level: 1}
+        - {color: "red", level: 2}
+  encoder4:
+    dataRef: "encoder4_health"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "yellow", level: 1}
+        - {color: "red", level: 2}
+  encoder5:
+    dataRef: "encoder5_health"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "yellow", level: 1}
+        - {color: "red", level: 2}
+  encoder6:
+    dataRef: "encoder6_health"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "yellow", level: 1}
+        - {color: "red", level: 2}
+  mux1:
+    dataRef: "mux1_health"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "yellow", level: 1}
+        - {color: "red", level: 2}
+  mux2:
+    dataRef: "mux2_health"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "yellow", level: 1}
+        - {color: "red", level: 2}
+  decoder1:
+    dataRef: "decoder1_health"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "yellow", level: 1}
+        - {color: "red", level: 2}
+  decoder2:
+    dataRef: "decoder2_health"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "yellow", level: 1}
+        - {color: "red", level: 2}
+  decoder3:
+    dataRef: "decoder3_health"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "yellow", level: 1}
+        - {color: "red", level: 2}
+  temperature:
+    dataRef: "temperature"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "yellow", level: 40}
+        - {color: "red", level: 60}
+  power:
+    dataRef: "power"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "red", level: 1}
+  cpu:
+    dataRef: "cpu"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "yellow", level: 40}
+        - {color: "red", level: 80}
+  bitrate:
+    dataRef: "bitrate"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "yellow", level: 40}
+        - {color: "red", level: 80}
+  health_multicast:
+    dataRef: "health_multicast"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "yellow", level: 1}
+        - {color: "red", level: 2}
+  disaster:
+    dataRef: "health_multicast"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "red", level: 1}    
+  high:
+    dataRef: "high"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "red", level: 2}  
+  warning:
+    dataRef: "warning"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "yellow", level: 5}
+        - {color: "red", level: 10}
+  info:
+    dataRef: "info"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
