@@ -20,7 +20,9 @@ cells:
       sameTab: true           # v1.14.0+ opens in same tab unless Ctrl/Shift is held
   docs:
     link:
-      url: "/d/video-streaming-dashboard/video-streaming-dashboard?orgId=1&viewPanel=2&from=now-6h&to=now&timezone=browser&var-server="
+      url: "?viewPanel=2&from=now-6h&to=now&timezone=browser&var-server="
+      params: "none"
+      sameTab: true
   inbox_depth:
     dataRef: "test-data-large-sin"
     label:
