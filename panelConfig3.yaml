@@ -20,7 +20,7 @@ cells:
     link:
       url: "https://erikaalvarez.grafana.net/d/video-streaming-dashboard/video-streaming-dashboard?orgId=1&viewPanel=2&from=now-6h&to=now&timezone=browser&var-server="
       params: "none"          # we already set from/to in the URL; don't append more
-      sameTab: true           # v1.14.0+ opens in same tab unless Ctrl/Shift is held
+      sameTab: false           # v1.14.0+ opens in same tab unless Ctrl/Shift is held
   encoder2:
     dataRef: "encoder2_health"
     label:
