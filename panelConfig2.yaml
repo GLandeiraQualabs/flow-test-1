@@ -9,7 +9,7 @@ anchorLinks:
       params: "time"
   - link: &flow-panel-2
       # Same dashboard, focus panel 2, preserve time & variables
-      url: "${__url.path}?viewPanel=2${__url_time_range}&${__all_variables}"
+      url: "$https://erikaalvarez.grafana.net/d/video-streaming-dashboard/video-streaming-dashboard?orgId=1&from=now-6h&to=now&timezone=browser&var-server=&viewPanel=2"
       target: "_self"   # or "_blank" if you want a new tab
 
 
