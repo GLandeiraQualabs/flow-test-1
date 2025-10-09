@@ -6,7 +6,7 @@
 anchorLinks:
   - link: &flow-panel-23
       # Same dashboard, focus panel 23, preserve time & variables
-      url: "${__url.path}?viewPanel=23${__url_time_range}&${__all_variables}"
+      url: "${__url.path}?viewPanel=2${__url_time_range}&${__all_variables}"
       target: "_self"   # or "_blank" if you want a new tab
 
 #------------------------------------------------------------------------------
