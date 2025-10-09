@@ -16,7 +16,7 @@ cellIdPreamble: "cell-"
 cells: 
   drawio:
     link:
-      url: "*flow-panel-23"
+      url: *flow-panel-23
   docs:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
