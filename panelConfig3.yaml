@@ -202,7 +202,7 @@ cells:
       separator: "cr"
       units: "none"
       decimalPoints: 0
-    labelColor:
+    fillColor:
       gradientMode: "hue"
       thresholds:
         - {color: "green", level: 0}
@@ -213,7 +213,7 @@ cells:
       separator: "cr"
       units: "none"
       decimalPoints: 0
-    labelColor:
+    fillColor:
       gradientMode: "hue"
       thresholds:
         - {color: "green", level: 0}
@@ -224,7 +224,7 @@ cells:
       separator: "cr"
       units: "none"
       decimalPoints: 0
-    labelColor:
+    fillColor:
       gradientMode: "hue"
       thresholds:
         - {color: "green", level: 0}
@@ -236,7 +236,7 @@ cells:
       separator: "cr"
       units: "none"
       decimalPoints: 0
-    labelColor:
+    fillColor:
       gradientMode: "hue"
       thresholds:
         - {color: "green", level: 0}
