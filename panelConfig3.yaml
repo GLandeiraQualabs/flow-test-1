@@ -141,42 +141,8 @@ cells:
         - {color: "green", level: 0}
         - {color: "yellow", level: 1}
         - {color: "red", level: 2}
-  # temperature:
-  #   dataRef: "temperature"
-  #   label:
-  #     separator: "cr"
-  #     units: "none"
-  #     decimalPoints: 0
-  #   fillColor:
-  #     gradientMode: "hue"
-  #     thresholds:
-  #       - {color: "green", level: 0}
-  #       - {color: "yellow", level: 40}
-  #       - {color: "red", level: 60}
-  temperature:
-    bespoke:
-      dataRefs:
-        - "temperature"
-      formulas:
-        - "scale = string(0.5 + max(0.0, min(1.0, data['temperature'] / 1000)))"
-        - "ringBoundary = round(data['temperature'] / 200) * 200"
-        #- "utils.log('log scale and data to console:', scale, ringBoundary, data)"
-      drives:
-        # Capture the range-ring origin on the 'ellipse' element
-        - elementName: "ellipse"
-          attribsGet:
-            rangeRingOriginX: "cx"
-            rangeRingOriginY: "cy"
-
-        # Scale the range-ring on the outer 'g' around the ellipse origin. Scaling on the outer 'g' ensures
-        # everything within such as the label is kept coherently positioned.
-        - elementName: "g"
-          elementPosition: 1
-          attribsSet:
-            transform: "concat('scale(', scale, ' ', scale, ')')"
-            'transform-origin': "concat(rangeRingOriginX, ' ', rangeRingOriginY)"
-  power:
-    bespokeDataRef: "power"
+  rangeRing:
+    bespokeDataRef: "ringBoundary"
     label:
       separator: "replace"
       units: "ops"
@@ -189,8 +155,8 @@ cells:
       dataRefs:
         - "test-data-large-sin"
       formulas:
-        - "scale = string(0.5 + max(0.0, min(1.0, data['power'] / 1000)))"
-        - "ringBoundary = round(data['power'] / 200) * 200"
+        - "scale = string(0.5 + max(0.0, min(1.0, data['test-data-large-sin'] / 1000)))"
+        - "ringBoundary = round(data['test-data-large-sin'] / 200) * 200"
         #- "utils.log('log scale and data to console:', scale, ringBoundary, data)"
       drives:
         # Capture the range-ring origin on the 'ellipse' element
@@ -206,6 +172,30 @@ cells:
           attribsSet:
             transform: "concat('scale(', scale, ' ', scale, ')')"
             'transform-origin': "concat(rangeRingOriginX, ' ', rangeRingOriginY)"
+  temperature:
+    dataRef: "temperature"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "yellow", level: 40}
+        - {color: "red", level: 80}
+  power:
+    dataRef: "power"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - {color: "green", level: 0}
+        - {color: "yellow", level: 40}
+        - {color: "red", level: 80}
   cpu:
     dataRef: "cpu"
     label:
