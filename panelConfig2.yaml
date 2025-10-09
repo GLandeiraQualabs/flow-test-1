@@ -15,11 +15,11 @@ cellIdPreamble: "cell-"
 cells: 
   drawio:
     link:
-      url: "https://erikaalvarez.grafana.net/d/video-streaming-dashboard/video-streaming-dashboard?orgId=1&from=now-6h&to=now&timezone=browser&var-server=&viewPanel=2"
+      url: "?viewPanel=2&${__url_params}"
       target: "_self"
   docs:
     link:
-      url: "${__url.path}?viewPanel=2"
+      url: "?viewPanel=2"
       target: "_self"
   inbox_depth:
     dataRef: "test-data-large-sin"
