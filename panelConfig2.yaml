@@ -22,7 +22,7 @@ cells:
     link:
       url: "/d/video-streaming-dashboard/video-streaming-dashboard?viewPanel=2&from=now-6h&to=now&timezone=browser&var-server="
       params: "none"
-      sameTab: true
+      sameTab: false
   inbox_depth:
     dataRef: "test-data-large-sin"
     label:
