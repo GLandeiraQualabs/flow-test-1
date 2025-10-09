@@ -7,6 +7,11 @@ anchorLinks:
   - link: &grafana-home
       url: "https://grafana.com/"
       params: "time"
+  - link: &flow-panel-2
+      # Same dashboard, focus panel 2, preserve time & variables
+      url: "${__url.path}?viewPanel=2${__url_time_range}&${__all_variables}"
+      target: "_self"   # or "_blank" if you want a new tab
+
 
 #------------------------------------------------------------------------------
 # Panel Config
@@ -15,7 +20,7 @@ cellIdPreamble: "cell-"
 cells: 
   drawio:
     link:
-      url: "https://app.diagrams.net/?p=svgdata"
+      url: *flow-panel-2
   docs:
     link:
       url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
