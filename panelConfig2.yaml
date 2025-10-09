@@ -23,7 +23,7 @@ cells:
       url: *flow-panel-2
   docs:
     link:
-      url: "https://github.com/andymchugh/andrewbmchugh-flow-panel/blob/main/src/README.md"
+      url: *flow-panel-2
   inbox_depth:
     dataRef: "test-data-large-sin"
     label:
