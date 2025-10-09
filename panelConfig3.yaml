@@ -1,25 +1,19 @@
 ---
 
 #------------------------------------------------------------------------------
-# YAML Aliases to simplify maintenance
-
-anchorLinks:
-  - link: &grafana-home
-      url: "https://grafana.com/"
-      params: "time"
-
-#------------------------------------------------------------------------------
 # Panel Config
 
-cells: 
+cellIdPreamble: "cell-"
+cells:
   encoder1:
     dataRef: "encoder1_health"
     label:
       separator: "cr"
-      units: "ops"
+      units: "none"
       decimalPoints: 0
-    fillColor:
+    labelColor:
       gradientMode: "hue"
       thresholds:
-        - {color: "semi-dark-green", level: 0}
-        - {color: "orange", level: 1}
+        - {color: "green", level: 0}
+        - {color: "orange", level: 500}
+        - {color: "red", level: 1000}
