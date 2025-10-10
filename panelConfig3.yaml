@@ -14,7 +14,7 @@ cells:
     labelColor:
       gradientMode: "hue"
       thresholds:
-        - {color: "rgba(0,255,0,0.01)", level: 0}
+        - {color: "rgba(0,255,0,0.1)", level: 0}
         - {color: "yellow", level: 1}
         - {color: "red", level: 2}
     link:
