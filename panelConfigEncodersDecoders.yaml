@@ -5,190 +5,214 @@
 cellIdPreamble: "cell-"
 cells:
   # ==============================
-  # === CHANNEL A ===============
+  # === CHANNELS (A/B/C) ========
   # ==============================
   channel_a_sdi_health:
     dataRef: "channel_a_sdi_health"
-    label:
-      separator: "cr"
-      units: "none"
-      decimalPoints: 0
-    labelColor:
-      gradientMode: "hue"
+    fillColor:
+      gradientMode: "none"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "yellow", level: 1 }
         - { color: "green", level: 2 }
-
-  channel_a_sdi_text:
-    dataRef: "channel_a_sdi_health"
     label:
-      separator: "cr"
-      units: "status"
-      decimalPoints: 0
+      units: "status_text"
+      mappings:
+        - { value: 0, text: "FAIL" }
+        - { value: 1, text: "WARN" }
+        - { value: 2, text: "OK" }
 
   channel_a_srt_health:
     dataRef: "channel_a_srt_health"
-    label:
-      separator: "cr"
-      units: "none"
-      decimalPoints: 0
-    labelColor:
-      gradientMode: "hue"
+    fillColor:
+      gradientMode: "none"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "yellow", level: 1 }
         - { color: "green", level: 2 }
-
-  channel_a_srt_text:
-    dataRef: "channel_a_srt_health"
     label:
-      separator: "cr"
-      units: "status"
-      decimalPoints: 0
+      units: "status_text"
+      mappings:
+        - { value: 0, text: "FAIL" }
+        - { value: 1, text: "WARN" }
+        - { value: 2, text: "OK" }
 
   channel_a_general_health:
     dataRef: "channel_a_general_health"
-    label:
-      separator: "cr"
-      units: "none"
-      decimalPoints: 0
-    labelColor:
-      gradientMode: "hue"
+    fillColor:
+      gradientMode: "none"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "yellow", level: 1 }
         - { color: "green", level: 2 }
-
-  channel_a_general_text:
-    dataRef: "channel_a_general_health"
     label:
-      separator: "cr"
-      units: "status"
-      decimalPoints: 0
+      units: "status_text"
+      mappings:
+        - { value: 0, text: "FAIL" }
+        - { value: 1, text: "WARN" }
+        - { value: 2, text: "OK" }
 
-  # ==============================
-  # === CHANNEL B ===============
-  # ==============================
   channel_b_sdi_health:
     dataRef: "channel_b_sdi_health"
-    label:
-      separator: "cr"
-      units: "none"
-      decimalPoints: 0
-    labelColor:
-      gradientMode: "hue"
+    fillColor:
+      gradientMode: "none"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "yellow", level: 1 }
         - { color: "green", level: 2 }
-
-  channel_b_sdi_text:
-    dataRef: "channel_b_sdi_health"
     label:
-      separator: "cr"
-      units: "status"
-      decimalPoints: 0
+      units: "status_text"
+      mappings:
+        - { value: 0, text: "FAIL" }
+        - { value: 1, text: "WARN" }
+        - { value: 2, text: "OK" }
 
   channel_b_srt_health:
     dataRef: "channel_b_srt_health"
-    label:
-      separator: "cr"
-      units: "none"
-      decimalPoints: 0
-    labelColor:
-      gradientMode: "hue"
+    fillColor:
+      gradientMode: "none"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "yellow", level: 1 }
         - { color: "green", level: 2 }
-
-  channel_b_srt_text:
-    dataRef: "channel_b_srt_health"
     label:
-      separator: "cr"
-      units: "status"
-      decimalPoints: 0
+      units: "status_text"
+      mappings:
+        - { value: 0, text: "FAIL" }
+        - { value: 1, text: "WARN" }
+        - { value: 2, text: "OK" }
 
   channel_b_general_health:
     dataRef: "channel_b_general_health"
-    label:
-      separator: "cr"
-      units: "none"
-      decimalPoints: 0
-    labelColor:
-      gradientMode: "hue"
+    fillColor:
+      gradientMode: "none"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "yellow", level: 1 }
         - { color: "green", level: 2 }
-
-  channel_b_general_text:
-    dataRef: "channel_b_general_health"
     label:
-      separator: "cr"
-      units: "status"
-      decimalPoints: 0
+      units: "status_text"
+      mappings:
+        - { value: 0, text: "FAIL" }
+        - { value: 1, text: "WARN" }
+        - { value: 2, text: "OK" }
 
-  # ==============================
-  # === CHANNEL C ===============
-  # ==============================
   channel_c_sdi_health:
     dataRef: "channel_c_sdi_health"
-    label:
-      separator: "cr"
-      units: "none"
-      decimalPoints: 0
-    labelColor:
-      gradientMode: "hue"
+    fillColor:
+      gradientMode: "none"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "yellow", level: 1 }
         - { color: "green", level: 2 }
-
-  channel_c_sdi_text:
-    dataRef: "channel_c_sdi_health"
     label:
-      separator: "cr"
-      units: "status"
-      decimalPoints: 0
+      units: "status_text"
+      mappings:
+        - { value: 0, text: "FAIL" }
+        - { value: 1, text: "WARN" }
+        - { value: 2, text: "OK" }
 
   channel_c_srt_health:
     dataRef: "channel_c_srt_health"
-    label:
-      separator: "cr"
-      units: "none"
-      decimalPoints: 0
-    labelColor:
-      gradientMode: "hue"
+    fillColor:
+      gradientMode: "none"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "yellow", level: 1 }
         - { color: "green", level: 2 }
-
-  channel_c_srt_text:
-    dataRef: "channel_c_srt_health"
     label:
-      separator: "cr"
-      units: "status"
-      decimalPoints: 0
+      units: "status_text"
+      mappings:
+        - { value: 0, text: "FAIL" }
+        - { value: 1, text: "WARN" }
+        - { value: 2, text: "OK" }
 
   channel_c_general_health:
     dataRef: "channel_c_general_health"
-    label:
-      separator: "cr"
-      units: "none"
-      decimalPoints: 0
-    labelColor:
-      gradientMode: "hue"
+    fillColor:
+      gradientMode: "none"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "yellow", level: 1 }
         - { color: "green", level: 2 }
-
-  channel_c_general_text:
-    dataRef: "channel_c_general_health"
     label:
-      separator: "cr"
-      units: "status"
+      units: "status_text"
+      mappings:
+        - { value: 0, text: "FAIL" }
+        - { value: 1, text: "WARN" }
+        - { value: 2, text: "OK" }
+
+  # ==============================
+  # === ENCODERS & TRANSCODER ====
+  # ==============================
+  encoder_1_status_box:
+    dataRef: "encoder_1_status_box"
+    fillColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+    label:
+      units: "status_text"
+      mappings:
+        - { value: 0, text: "ERROR" }
+        - { value: 1, text: "LIVE" }
+
+  encoder_2_status_box:
+    dataRef: "encoder_2_status_box"
+    fillColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+    label:
+      units: "status_text"
+      mappings:
+        - { value: 0, text: "ERROR" }
+        - { value: 1, text: "LIVE" }
+
+  transcoder_1_status_box:
+    dataRef: "transcoder_1_status_box"
+    fillColor:
+      gradientMode: "none"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+    label:
+      units: "status_text"
+      mappings:
+        - { value: 0, text: "ERROR" }
+        - { value: 1, text: "LIVE" }
+
+  # ==============================
+  # === SYSTEM RESOURCES =========
+  # ==============================
+  memory_usage:
+    dataRef: "memory_usage"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - { color: "green", level: 0 }
+        - { color: "yellow", level: 70 }
+        - { color: "red", level: 90 }
+
+  memory_text:
+    dataRef: "memory_usage"
+    label:
+      units: "percent"
+      decimalPoints: 0
+
+  disk_usage:
+    dataRef: "disk_usage"
+    fillColor:
+      gradientMode: "hue"
+      thresholds:
+        - { color: "green", level: 0 }
+        - { color: "yellow", level: 70 }
+        - { color: "red", level: 90 }
+
+  disk_text:
+    dataRef: "disk_usage"
+    label:
+      units: "percent"
       decimalPoints: 0
