@@ -1,0 +1,194 @@
+---
+#------------------------------------------------------------------------------
+# Panel Config
+
+cellIdPreamble: "cell-"
+cells:
+  # ==============================
+  # === CHANNEL A ===============
+  # ==============================
+  channel_a_sdi_health:
+    dataRef: "channel_a_sdi_health"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "yellow", level: 1 }
+        - { color: "green", level: 2 }
+
+  channel_a_sdi_text:
+    dataRef: "channel_a_sdi_health"
+    label:
+      separator: "cr"
+      units: "status"
+      decimalPoints: 0
+
+  channel_a_srt_health:
+    dataRef: "channel_a_srt_health"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "yellow", level: 1 }
+        - { color: "green", level: 2 }
+
+  channel_a_srt_text:
+    dataRef: "channel_a_srt_health"
+    label:
+      separator: "cr"
+      units: "status"
+      decimalPoints: 0
+
+  channel_a_general_health:
+    dataRef: "channel_a_general_health"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "yellow", level: 1 }
+        - { color: "green", level: 2 }
+
+  channel_a_general_text:
+    dataRef: "channel_a_general_health"
+    label:
+      separator: "cr"
+      units: "status"
+      decimalPoints: 0
+
+  # ==============================
+  # === CHANNEL B ===============
+  # ==============================
+  channel_b_sdi_health:
+    dataRef: "channel_b_sdi_health"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "yellow", level: 1 }
+        - { color: "green", level: 2 }
+
+  channel_b_sdi_text:
+    dataRef: "channel_b_sdi_health"
+    label:
+      separator: "cr"
+      units: "status"
+      decimalPoints: 0
+
+  channel_b_srt_health:
+    dataRef: "channel_b_srt_health"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "yellow", level: 1 }
+        - { color: "green", level: 2 }
+
+  channel_b_srt_text:
+    dataRef: "channel_b_srt_health"
+    label:
+      separator: "cr"
+      units: "status"
+      decimalPoints: 0
+
+  channel_b_general_health:
+    dataRef: "channel_b_general_health"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "yellow", level: 1 }
+        - { color: "green", level: 2 }
+
+  channel_b_general_text:
+    dataRef: "channel_b_general_health"
+    label:
+      separator: "cr"
+      units: "status"
+      decimalPoints: 0
+
+  # ==============================
+  # === CHANNEL C ===============
+  # ==============================
+  channel_c_sdi_health:
+    dataRef: "channel_c_sdi_health"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "yellow", level: 1 }
+        - { color: "green", level: 2 }
+
+  channel_c_sdi_text:
+    dataRef: "channel_c_sdi_health"
+    label:
+      separator: "cr"
+      units: "status"
+      decimalPoints: 0
+
+  channel_c_srt_health:
+    dataRef: "channel_c_srt_health"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "yellow", level: 1 }
+        - { color: "green", level: 2 }
+
+  channel_c_srt_text:
+    dataRef: "channel_c_srt_health"
+    label:
+      separator: "cr"
+      units: "status"
+      decimalPoints: 0
+
+  channel_c_general_health:
+    dataRef: "channel_c_general_health"
+    label:
+      separator: "cr"
+      units: "none"
+      decimalPoints: 0
+    labelColor:
+      gradientMode: "hue"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "yellow", level: 1 }
+        - { color: "green", level: 2 }
+
+  channel_c_general_text:
+    dataRef: "channel_c_general_health"
+    label:
+      separator: "cr"
+      units: "status"
+      decimalPoints: 0
