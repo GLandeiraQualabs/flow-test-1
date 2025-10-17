@@ -3,65 +3,84 @@
 #------------------------------------------------------------------------------
 # Panel Config
 
-dataRef: "A"
 cellIdPreamble: "cell-"
 cells:
   BMMatrixHealth_gl-ep-bxl-jan-mtx01:
-    dataRef: "BMMatrixHealth_gl-ep-bxl-jan-mtx01"
+    dataRef: "gl-ep-bxl-jan-mtx01"
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 99 }
   BMMatrixHealth_gl-ep-bxl-jan-mtx02:
-    dataRef: "BMMatrixHealth_gl-ep-bxl-jan-mtx02"
+    dataRef: "gl-ep-bxl-jan-mtx02"
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 99 }
   BMMatrixHealth_gl-ep-bxl-jan-mtx03:
-    dataRef: "BMMatrixHealth_gl-ep-bxl-jan-mtx03"
+    dataRef: "gl-ep-bxl-jan-mtx03"
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 99 }
   BMMatrixHealth_gl-ep-bxl-jan-mtx04:
-    dataRef: "BMMatrixHealth_gl-ep-bxl-jan-mtx04"
+    dataRef: "gl-ep-bxl-jan-mtx04"
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 99 }
   BMMatrixHealth_gl-ep-bxl-phs-hem-mtx01:
-    dataRef: "BMMatrixHealth_gl-ep-bxl-phs-hem-mtx01"
+    dataRef: "gl-ep-bxl-phs-hem-mtx01"
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 99 }
   BMMatrixHealth_gl-ep-bxl-phs-hem-mtx02:
-    dataRef: "BMMatrixHealth_gl-ep-bxl-phs-hem-mtx02"
+    dataRef: "gl-ep-bxl-phs-hem-mtx02"
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 99 }
   BMMatrixHealth_gl-ep-stb-hem-mtx01:
-    dataRef: "BMMatrixHealth_gl-ep-stb-hem-mtx01"
+    dataRef: "gl-ep-stb-hem-mtx01"
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 99 }
   BMMatrixHealth_gl-ep-stb-hem-mtx02:
-    dataRef: "BMMatrixHealth_gl-ep-stb-hem-mtx02"
+    dataRef: "gl-ep-stb-hem-mtx02"
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 99 }
+
+  HSG-SRT-Health_dus:
+    dataRef: "HSG_SRT_DUS"
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "gray", level: 0 }
+        - { color: "red", level: 1 }
+        - { color: "yellow", level: 2 }
+        - { color: "green", level: 3 }
+  HSG-SRT-Health_ffm:
+    dataRef: "HSG_SRT_FFM"
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "gray", level: 0 }
+        - { color: "red", level: 1 }
+        - { color: "yellow", level: 2 }
+        - { color: "green", level: 3 }
+
 
 
   # encoderHealth_gl-ep-bxl-jan-avpu-stage01:
