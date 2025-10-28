@@ -5,65 +5,237 @@
 
 cellIdPreamble: "cell-"
 cells:
+
+#---------------------------------------SDI MATRICES----------------------------------------------
   BMMatrixHealth_gl-ep-bxl-jan-mtx01:
-    dataRef: "gl-ep-bxl-jan-mtx01"
+    dataRef: "availability gl-ep-bxl-jan-mtx01"
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 99 }
   BMMatrixHealth_gl-ep-bxl-jan-mtx02:
-    dataRef: "gl-ep-bxl-jan-mtx02"
+    dataRef: "availability gl-ep-bxl-jan-mtx02"
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 99 }
   BMMatrixHealth_gl-ep-bxl-jan-mtx03:
-    dataRef: "gl-ep-bxl-jan-mtx03"
+    dataRef: "availability gl-ep-bxl-jan-mtx03"
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 99 }
   BMMatrixHealth_gl-ep-bxl-jan-mtx04:
-    dataRef: "gl-ep-bxl-jan-mtx04"
+    dataRef: "availability gl-ep-bxl-jan-mtx04"
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 99 }
   BMMatrixHealth_gl-ep-bxl-phs-hem-mtx01:
-    dataRef: "gl-ep-bxl-phs-hem-mtx01"
+    dataRef: "availability gl-ep-bxl-phs-hem-mtx01"
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 99 }
   BMMatrixHealth_gl-ep-bxl-phs-hem-mtx02:
-    dataRef: "gl-ep-bxl-phs-hem-mtx02"
+    dataRef: "availability gl-ep-bxl-phs-hem-mtx02"
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 99 }
   BMMatrixHealth_gl-ep-stb-hem-mtx01:
-    dataRef: "gl-ep-stb-hem-mtx01"
+    dataRef: "availability gl-ep-stb-hem-mtx01"
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 99 }
   BMMatrixHealth_gl-ep-stb-hem-mtx02:
-    dataRef: "gl-ep-stb-hem-mtx02"
+    dataRef: "availability gl-ep-stb-hem-mtx02"
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 99 }
 
+#-------------------------------------------ENCODERS----------------------------------------------
+  encoderHealth_gl-ep-bxl-jan-avpu01:
+    dataRef: Encoder Health gl-ep-bxl-jan-avpu01
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+  encoderHealth_gl-ep-bxl-jan-avpu02:
+    dataRef: Encoder Health gl-ep-bxl-jan-avpu02
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+  encoderHealth_gl-ep-bxl-jan-avpu03:
+    dataRef: Encoder Health gl-ep-bxl-jan-avpu03
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+  encoderHealth_gl-ep-bxl-jan-avpu04:
+    dataRef: Encoder Health gl-ep-bxl-jan-avpu04
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+  encoderHealth_gl-ep-bxl-phs-hem-avpu01:
+    dataRef: Encoder Health gl-ep-bxl-phs-hem-avpu01
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+  encoderHealth_gl-ep-bxl-phs-hem-avpu02:
+    dataRef: Encoder Health gl-ep-bxl-phs-hem-avpu02
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+  encoderHealth_gl-ep-stb-hem-avpu01:
+    dataRef: Encoder Health gl-ep-stb-hem-avpu01
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+  encoderHealth_gl-ep-stb-hem-avpu02:
+    dataRef: Encoder Health gl-ep-stb-hem-avpu02
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+
+#---------------------------------------------SWITCHES--------------------------------------------
+  switchHealth_gl-ep-bxl-jan-sw01:
+    dataRef: Network devices health {hostname="gl-ep-bxl-jan-sw01", sensor_descr="routing engine 0"}
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+  switchHealth_gl-ep-bxl-jan-sw02:
+    dataRef: Network devices health {hostname="gl-ep-bxl-jan-sw01", sensor_descr="routing engine 1"}
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+  switchHealth_gl-ep-bxl-phs-hem-sw01:
+    dataRef: Network devices health {hostname="gl-ep-bxl-phs-hem-sw01", sensor_descr="routing engine 0"}
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+  switchHealth_gl-ep-bxl-phs-hem-sw02:
+    dataRef: Network devices health {hostname="gl-ep-bxl-phs-hem-sw01", sensor_descr="routing engine 1"}
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+  switchHealth_gl-ep-stb-phs-hem-sw01:
+    dataRef: Network devices health {hostname="gl-ep-stb-hem-sw01", sensor_descr="routing engine 0"}
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+  switchHealth_gl-ep-stb-phs-hem-sw02:
+    dataRef: Network devices health {hostname="gl-ep-stb-hem-sw01", sensor_descr="routing engine 1"}
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+#---------------------------------------------FIREWALL--------------------------------------------
+  firewallHealth_gl-ep-bxl-jan-fw01:
+
+  firewallHealth_gl-ep-bxl-phs-hem-fw01:
+
+  firewallHealth_gl-ep-stb-phs-hem-fw01:
+
+  firewallHealth_gl-ep-stb-phs-hem-fw02:
+
+#----------------------------------------FRONTEND SWITCHES-------------------------------------------------
+  frontendSwitchHealth_gl-ep-bxl-jan-fsw01:
+    dataRef: Network devices health {hostname="gl-ep-bxl-fsw01", sensor_descr="routing engine 0"}
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+  frontendSwitchHealth_gl-ep-bxl-phs-hem-fsw01:
+    dataRef: Network devices health {hostname="gl-ep-bxl-fsw01", sensor_descr="routing engine 1"}
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+  frontendSwitchHealth_gl-ep-stb-phs-hem-fsw01:
+    dataRef: Network devices health {hostname="gl-ep-stb-fsw01", sensor_descr="routing engine 0"}
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+  frontendSwitchHealth_gl-ep-stb-phs-hem-fsw02:
+    dataRef: Network devices health {hostname="gl-ep-stb-fsw01", sensor_descr="routing engine 1"}
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+#-------------------------------------------TRANSCODERS----------------------------------------------
+  transcoderHealth_gl-dus-k3s-01:
+    dataRef: Transcoder Health gl-dus-k3s-01
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+  transcoderHealth_gl-dus-k3s-02:
+    dataRef: Transcoder Health gl-dus-k3s-02
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+  transcoderHealth_gl-fra-k3s-01:
+    dataRef: Transcoder Health gl-fra-k3s-01
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+  transcoderHealth_gl-fra-k3s-02:
+    dataRef: Transcoder Health gl-fra-k3s-02
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+
+#---------------------------------------------HSG SRT------------------------------------------------
   HSG-SRT-Health_dus:
-    dataRef: "HSG_SRT_DUS"
+    dataRef: "HSG SRT Health https://hsg-dus.gl-systemhaus.de"
     fillColor:
       gradientMode: "fixed"
       thresholds:
@@ -72,7 +244,7 @@ cells:
         - { color: "yellow", level: 2 }
         - { color: "green", level: 3 }
   HSG-SRT-Health_ffm:
-    dataRef: "HSG_SRT_FFM"
+    dataRef: "HSG SRT Health https://hsg-ffm.gl-systemhaus.de"
     fillColor:
       gradientMode: "fixed"
       thresholds:
