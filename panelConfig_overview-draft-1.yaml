@@ -72,6 +72,12 @@ cells:
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  encoderIcon_gl-ep-bxl-jan-avpu01:
+    link:
+      url: "https://gl1.grafana.net/d/yu8wqtx/encoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-bxl-jan-avpu01&var-encoder=$__all"
+      params: "none"
+      sameTab: false  
   encoderHealth_gl-ep-bxl-jan-avpu02:
     dataRef: Encoder Health gl-ep-bxl-jan-avpu02
     fillColor:
@@ -79,6 +85,12 @@ cells:
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  encoderIcon_gl-ep-bxl-jan-avpu02:
+    link:
+      url: "https://gl1.grafana.net/d/yu8wqtx/encoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-bxl-jan-avpu02&var-encoder=$__all"
+      params: "none"
+      sameTab: false  
   encoderHealth_gl-ep-bxl-jan-avpu03:
     dataRef: Encoder Health gl-ep-bxl-jan-avpu03
     fillColor:
@@ -86,6 +98,12 @@ cells:
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  encoderIcon_gl-ep-bxl-jan-avpu03:
+    link:
+      url: "https://gl1.grafana.net/d/yu8wqtx/encoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-bxl-jan-avpu03&var-encoder=$__all"
+      params: "none"
+      sameTab: false  
   encoderHealth_gl-ep-bxl-jan-avpu04:
     dataRef: Encoder Health gl-ep-bxl-jan-avpu04
     fillColor:
@@ -93,6 +111,12 @@ cells:
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  encoderIcon_gl-ep-bxl-jan-avpu04:
+    link:
+      url: "https://gl1.grafana.net/d/yu8wqtx/encoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-bxl-jan-avpu04&var-encoder=$__all"
+      params: "none"
+      sameTab: false  
   encoderHealth_gl-ep-bxl-phs-hem-avpu01:
     dataRef: Encoder Health gl-ep-bxl-phs-hem-avpu01
     fillColor:
@@ -100,6 +124,12 @@ cells:
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  encoderIcon_gl-ep-bxl-phs-hem-avpu01:
+    link:
+      url: "https://gl1.grafana.net/d/yu8wqtx/encoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-bxl-phs-hem-avpu01&var-encoder=$__all"
+      params: "none"
+      sameTab: false  
   encoderHealth_gl-ep-bxl-phs-hem-avpu02:
     dataRef: Encoder Health gl-ep-bxl-phs-hem-avpu02
     fillColor:
@@ -107,6 +137,12 @@ cells:
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  encoderIcon_gl-ep-bxl-phs-hem-avpu02:
+    link:
+      url: "https://gl1.grafana.net/d/yu8wqtx/encoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-bxl-phs-hem-avpu02&var-encoder=$__all"
+      params: "none"
+      sameTab: false  
   encoderHealth_gl-ep-stb-hem-avpu01:
     dataRef: Encoder Health gl-ep-stb-hem-avpu01
     fillColor:
@@ -114,6 +150,12 @@ cells:
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  encoderIcon_gl-ep-stb-hem-avpu01:
+    link:
+      url: "https://gl1.grafana.net/d/yu8wqtx/encoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-stb-hem-avpu01&var-encoder=$__all"
+      params: "none"
+      sameTab: false  
   encoderHealth_gl-ep-stb-hem-avpu02:
     dataRef: Encoder Health gl-ep-stb-hem-avpu02
     fillColor:
@@ -121,88 +163,201 @@ cells:
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  encoderIcon_gl-ep-stb-hem-avpu02:
+    link:
+      url: "https://gl1.grafana.net/d/yu8wqtx/encoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-stb-hem-avpu02&var-encoder=$__all"
+      params: "none"
+      sameTab: false  
 
 #---------------------------------------------SWITCHES--------------------------------------------
   switchHealth_gl-ep-bxl-jan-sw01:
-    dataRef: Network devices health {hostname="gl-ep-bxl-jan-sw01", sensor_descr="routing engine 0"}
+    dataRef: Switch Health {hostname="gl-ep-bxl-jan-sw01", sensor_descr="Routing Engine 0"}
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  switchIcon_gl-ep-bxl-jan-sw01:
+    link:
+      url: "https://gl1.grafana.net/d/yuv5x84/backend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-jan-sw01&var-BSW=Routing%20Engine%200"
+      params: "none"
+      sameTab: false  
   switchHealth_gl-ep-bxl-jan-sw02:
-    dataRef: Network devices health {hostname="gl-ep-bxl-jan-sw01", sensor_descr="routing engine 1"}
+    dataRef: Switch Health {hostname="gl-ep-bxl-jan-sw01", sensor_descr="Routing Engine 1"}
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  switchIcon_gl-ep-bxl-jan-sw02:
+    link:
+      url: "https://gl1.grafana.net/d/yuv5x84/backend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-jan-sw01&var-BSW=Routing%20Engine%201"
+      params: "none"
+      sameTab: false  
   switchHealth_gl-ep-bxl-phs-hem-sw01:
-    dataRef: Network devices health {hostname="gl-ep-bxl-phs-hem-sw01", sensor_descr="routing engine 0"}
+    dataRef: Switch Health {hostname="gl-ep-bxl-phs-hem-sw01", sensor_descr="Routing Engine 0"}
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  switchIcon_gl-ep-bxl-phs-hem-sw01:
+    link:
+      url: "https://gl1.grafana.net/d/yuv5x84/backend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-phs-hem-sw01&var-BSW=Routing%20Engine%200"
+      params: "none"
+      sameTab: false  
   switchHealth_gl-ep-bxl-phs-hem-sw02:
-    dataRef: Network devices health {hostname="gl-ep-bxl-phs-hem-sw01", sensor_descr="routing engine 1"}
+    dataRef: Switch Health {hostname="gl-ep-bxl-phs-hem-sw01", sensor_descr="Routing Engine 1"}
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  switchIcon_gl-ep-bxl-phs-hem-sw02:
+    link:
+      url: "https://gl1.grafana.net/d/yuv5x84/backend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-phs-hem-sw01&var-BSW=Routing%20Engine%201"
+      params: "none"
+      sameTab: false  
   switchHealth_gl-ep-stb-phs-hem-sw01:
-    dataRef: Network devices health {hostname="gl-ep-stb-hem-sw01", sensor_descr="routing engine 0"}
+    dataRef: Switch Health {hostname="gl-ep-stb-hem-sw01", sensor_descr="Routing Engine 0"}
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  switchIcon_gl-ep-stb-phs-hem-sw01:
+    link:
+      url: "https://gl1.grafana.net/d/yuv5x84/backend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-stb-hem-sw01&var-BSW=Routing%20Engine%200"
+      params: "none"
+      sameTab: false  
   switchHealth_gl-ep-stb-phs-hem-sw02:
-    dataRef: Network devices health {hostname="gl-ep-stb-hem-sw01", sensor_descr="routing engine 1"}
+    dataRef: Switch Health {hostname="gl-ep-stb-hem-sw01", sensor_descr="Routing Engine 1"}
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  switchIcon_gl-ep-stb-phs-hem-sw02:
+    link:
+      url: "https://gl1.grafana.net/d/yuv5x84/backend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-stb-hem-sw01&var-BSW=Routing%20Engine%201"
+      params: "none"
+      sameTab: false  
+
 #---------------------------------------------FIREWALL--------------------------------------------
   firewallHealth_gl-ep-bxl-jan-fw01:
-
+    dataRef: Network Device Health {hostname="gl-ep-bxl-fw", sensor_descr="Routing Engine 0"}
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  firewallIcon_gl-ep-bxl-jan-fw01:
+    link:
+      url: "https://gl1.grafana.net/d/fek6xzs/firewall-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-fw"
+      params: "none"
+      sameTab: false  
   firewallHealth_gl-ep-bxl-phs-hem-fw01:
-
+    dataRef: Network Device Health {hostname="gl-ep-bxl-fw", sensor_descr="Routing Engine 0"}
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  firewallIcon_gl-ep-bxl-phs-hem-fw01:
+    link:
+      url: "https://gl1.grafana.net/d/fek6xzs/firewall-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-fw"
+      params: "none"
+      sameTab: false  
   firewallHealth_gl-ep-stb-phs-hem-fw01:
-
+    dataRef: Network Device Health {hostname="gl-ep-stb-fw", sensor_descr="Routing Engine 0"}
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  firewallIcon_gl-ep-stb-phs-hem-fw01:
+    link:
+      url: "https://gl1.grafana.net/d/fek6xzs/firewall-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-stb-fw"
+      params: "none"
+      sameTab: false  
   firewallHealth_gl-ep-stb-phs-hem-fw02:
+    dataRef: Network Device Health {hostname="gl-ep-stb-fw", sensor_descr="Routing Engine 0"}
+    fillColor:
+      gradientMode: "fixed"
+      thresholds:
+        - { color: "red", level: 0 }
+        - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  firewallIcon_gl-ep-stb-phs-hem-fw02:
+    link:
+      url: "https://gl1.grafana.net/d/fek6xzs/firewall-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-stb-fw"
+      params: "none"
+      sameTab: false  
 
 #----------------------------------------FRONTEND SWITCHES-------------------------------------------------
   frontendSwitchHealth_gl-ep-bxl-jan-fsw01:
-    dataRef: Network devices health {hostname="gl-ep-bxl-fsw01", sensor_descr="routing engine 0"}
+    dataRef: Switch Health {hostname="gl-ep-bxl-fsw01", sensor_descr="Routing Engine 0"}
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  frontendSwitchIcon_gl-ep-bxl-jan-fsw01:
+    link:
+      url: "https://gl1.grafana.net/d/ferf476/frontend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-fsw01&var-FSW=Routing%20Engine%200"
+      params: "none"
+      sameTab: false  
   frontendSwitchHealth_gl-ep-bxl-phs-hem-fsw01:
-    dataRef: Network devices health {hostname="gl-ep-bxl-fsw01", sensor_descr="routing engine 1"}
+    dataRef: Switch Health {hostname="gl-ep-bxl-fsw01", sensor_descr="Routing Engine 1"}
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  frontendSwitchIcon_gl-ep-bxl-phs-hem-fsw01:
+    link:
+      url: "https://gl1.grafana.net/d/ferf476/frontend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-fsw01&var-FSW=Routing%20Engine%201"
+      params: "none"
+      sameTab: false  
   frontendSwitchHealth_gl-ep-stb-phs-hem-fsw01:
-    dataRef: Network devices health {hostname="gl-ep-stb-fsw01", sensor_descr="routing engine 0"}
+    dataRef: Switch Health {hostname="gl-ep-stb-fsw01", sensor_descr="Routing Engine 0"}
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  frontendSwitchIcon_gl-ep-stb-phs-hem-fsw01:
+    link:
+      url: "https://gl1.grafana.net/d/ferf476/frontend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-stb-fsw01&var-FSW=Routing%20Engine%200"
+      params: "none"
+      sameTab: false  
   frontendSwitchHealth_gl-ep-stb-phs-hem-fsw02:
-    dataRef: Network devices health {hostname="gl-ep-stb-fsw01", sensor_descr="routing engine 1"}
+    dataRef: Switch Health {hostname="gl-ep-stb-fsw01", sensor_descr="Routing Engine 1"}
     fillColor:
       gradientMode: "fixed"
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  frontendSwitchIcon_gl-ep-stb-phs-hem-fsw02:
+    link:
+      url: "https://gl1.grafana.net/d/ferf476/frontend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-stb-fsw01&var-FSW=Routing%20Engine%201"
+      params: "none"
+      sameTab: false  
+
 #-------------------------------------------TRANSCODERS----------------------------------------------
   transcoderHealth_gl-dus-k3s-01:
     dataRef: Transcoder Health gl-dus-k3s-01
@@ -211,6 +366,12 @@ cells:
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  transcoderIcon_gl-dus-k3s-01:
+    link:
+      url: "https://gl1.grafana.net/d/yu67v94/trancoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-dus-k3s-01&var-transcoder=$__all"
+      params: "none"
+      sameTab: false
   transcoderHealth_gl-dus-k3s-02:
     dataRef: Transcoder Health gl-dus-k3s-02
     fillColor:
@@ -218,6 +379,12 @@ cells:
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  transcoderIcon_gl-dus-k3s-02:
+    link:
+      url: "https://gl1.grafana.net/d/yu67v94/trancoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-dus-k3s-02&var-transcoder=$__all"
+      params: "none"
+      sameTab: false
   transcoderHealth_gl-fra-k3s-01:
     dataRef: Transcoder Health gl-fra-k3s-01
     fillColor:
@@ -225,6 +392,12 @@ cells:
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 1 }
+        - { color: "orange", level: 2 }
+  transcoderIcon_gl-fra-k3s-01:
+    link:
+      url: "https://gl1.grafana.net/d/yu67v94/trancoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-fra-k3s-01&var-transcoder=$__all"
+      params: "none"
+      sameTab: false
   transcoderHealth_gl-fra-k3s-02:
     dataRef: Transcoder Health gl-fra-k3s-02
     fillColor:
@@ -232,7 +405,12 @@ cells:
       thresholds:
         - { color: "red", level: 0 }
         - { color: "green", level: 1 }
-
+        - { color: "orange", level: 2 }
+  transcoderIcon_gl-fra-k3s-02:
+    link:
+      url: "https://gl1.grafana.net/d/yu67v94/trancoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-fra-k3s-02&var-transcoder=$__all"
+      params: "none"
+      sameTab: false
 #---------------------------------------------HSG SRT------------------------------------------------
   HSG-SRT-Health_dus:
     dataRef: "HSG SRT Health https://hsg-dus.gl-systemhaus.de"
@@ -243,6 +421,11 @@ cells:
         - { color: "red", level: 1 }
         - { color: "yellow", level: 2 }
         - { color: "green", level: 3 }
+  HSG-SRT-Icon_dus:
+    link:
+      url: "https://gl1.grafana.net/d/1a67019f-4780-47a5-aec5-6519ac9887b8/haivision-srt-gateways?orgId=1&from=now-3h&to=now&timezone=browser&var-datasource=ddeugnc9e6nswa&var-gateway=https:%2F%2Fhsg-dus.gl-systemhaus.de&var-routes=HSE24&var-routes=bxl-01&var-routes=bxl-02&var-routes=bxl-03&var-routes=bxl-04&var-routes=bxl-05&var-routes=bxl-06&var-routes=bxl-07&var-routes=bxl-08&var-routes=bxl-09&var-routes=bxl-10&var-routes=bxl-11&var-routes=bxl-12&var-routes=bxl-13&var-routes=bxl-14&var-routes=bxl-15&var-routes=bxl-16&var-routes=bxl-17&var-routes=bxl-18&var-routes=bxl-19&var-routes=bxl-20&var-routes=bxl-hem-01&var-routes=bxl-hem-02&var-routes=bxl-hem-03&var-routes=bxl-hem-04&var-routes=stb-hem-01&var-routes=stb-hem-02&var-routes=stb-hem-03&var-routes=stb-hem-04&var-routes=stb-hem-05&var-routes=stb-hem-06&var-routes=stb-hem-07&var-routes=stb-hem-08&refresh=1m"
+      params: "none"
+      sameTab: false
   HSG-SRT-Health_ffm:
     dataRef: "HSG SRT Health https://hsg-ffm.gl-systemhaus.de"
     fillColor:
@@ -252,18 +435,8 @@ cells:
         - { color: "red", level: 1 }
         - { color: "yellow", level: 2 }
         - { color: "green", level: 3 }
-
-
-
-  # encoderHealth_gl-ep-bxl-jan-avpu-stage01:
-  #   dataRef: "encoder1_health"
-  #   fillColor:
-  #     gradientMode: "fixed"
-  #     thresholds:
-  #       - { color: "red", level: 1 }
-  #       - { color: "yellow", level: 2 }
-  #       - { color: "green", level: 3 }
-
-
-
-        
+  HSG-SRT-Icon_ffm:
+    link:
+      url: "https://gl1.grafana.net/d/1a67019f-4780-47a5-aec5-6519ac9887b8/haivision-srt-gateways?orgId=1&from=now-3h&to=now&timezone=browser&var-datasource=ddeugnc9e6nswa&var-gateway=https:%2F%2Fhsg-ffm.gl-systemhaus.de&var-routes=HSE24&var-routes=bxl-01&var-routes=bxl-02&var-routes=bxl-03&var-routes=bxl-04&var-routes=bxl-05&var-routes=bxl-06&var-routes=bxl-07&var-routes=bxl-08&var-routes=bxl-09&var-routes=bxl-10&var-routes=bxl-11&var-routes=bxl-12&var-routes=bxl-13&var-routes=bxl-14&var-routes=bxl-15&var-routes=bxl-16&var-routes=bxl-17&var-routes=bxl-18&var-routes=bxl-19&var-routes=bxl-20&var-routes=bxl-hem-01&var-routes=bxl-hem-02&var-routes=bxl-hem-03&var-routes=bxl-hem-04&var-routes=stb-hem-01&var-routes=stb-hem-02&var-routes=stb-hem-03&var-routes=stb-hem-04&var-routes=stb-hem-05&var-routes=stb-hem-06&var-routes=stb-hem-07&var-routes=stb-hem-08&refresh=1m"
+      params: "none"
+      sameTab: false
