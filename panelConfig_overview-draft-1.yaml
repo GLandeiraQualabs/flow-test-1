@@ -66,7 +66,7 @@ cells:
 
 #-------------------------------------------ENCODERS----------------------------------------------
   encoderHealth_gl-ep-bxl-jan-avpu01:
-    dataRef: Encoder Health gl-ep-bxl-jan-avpu01
+    dataRef: Health gl-ep-bxl-jan-avpu01
     fillColor:
       gradientMode: "fixed"
       thresholds:
@@ -75,11 +75,11 @@ cells:
         - { color: "orange", level: 2 }
   encoderIcon_gl-ep-bxl-jan-avpu01:
     link:
-      url: "https://gl1.grafana.net/d/yu8wqtx/encoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-bxl-jan-avpu01&var-encoder=$__all"
+      url: "https://gl1.grafana.net/d/yu8wqtx4321/encoders-overview?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-bxl-jan-avpu01&var-encoder=$__all"
       params: "none"
       sameTab: false  
   encoderHealth_gl-ep-bxl-jan-avpu02:
-    dataRef: Encoder Health gl-ep-bxl-jan-avpu02
+    dataRef: Health gl-ep-bxl-jan-avpu02
     fillColor:
       gradientMode: "fixed"
       thresholds:
@@ -88,11 +88,11 @@ cells:
         - { color: "orange", level: 2 }
   encoderIcon_gl-ep-bxl-jan-avpu02:
     link:
-      url: "https://gl1.grafana.net/d/yu8wqtx/encoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-bxl-jan-avpu02&var-encoder=$__all"
+      url: "https://gl1.grafana.net/d/yu8wqtx4321/encoders-overview?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-bxl-jan-avpu02&var-encoder=$__all"
       params: "none"
       sameTab: false  
   encoderHealth_gl-ep-bxl-jan-avpu03:
-    dataRef: Encoder Health gl-ep-bxl-jan-avpu03
+    dataRef: Health gl-ep-bxl-jan-avpu03
     fillColor:
       gradientMode: "fixed"
       thresholds:
@@ -101,11 +101,11 @@ cells:
         - { color: "orange", level: 2 }
   encoderIcon_gl-ep-bxl-jan-avpu03:
     link:
-      url: "https://gl1.grafana.net/d/yu8wqtx/encoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-bxl-jan-avpu03&var-encoder=$__all"
+      url: "https://gl1.grafana.net/d/yu8wqtx4321/encoders-overview?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-bxl-jan-avpu03&var-encoder=$__all"
       params: "none"
       sameTab: false  
   encoderHealth_gl-ep-bxl-jan-avpu04:
-    dataRef: Encoder Health gl-ep-bxl-jan-avpu04
+    dataRef: Health gl-ep-bxl-jan-avpu04
     fillColor:
       gradientMode: "fixed"
       thresholds:
@@ -114,11 +114,11 @@ cells:
         - { color: "orange", level: 2 }
   encoderIcon_gl-ep-bxl-jan-avpu04:
     link:
-      url: "https://gl1.grafana.net/d/yu8wqtx/encoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-bxl-jan-avpu04&var-encoder=$__all"
+      url: "https://gl1.grafana.net/d/yu8wqtx4321/encoders-overview?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-bxl-jan-avpu04&var-encoder=$__all"
       params: "none"
       sameTab: false  
   encoderHealth_gl-ep-bxl-phs-hem-avpu01:
-    dataRef: Encoder Health gl-ep-bxl-phs-hem-avpu01
+    dataRef: Health gl-ep-bxl-phs-hem-avpu01
     fillColor:
       gradientMode: "fixed"
       thresholds:
@@ -127,11 +127,11 @@ cells:
         - { color: "orange", level: 2 }
   encoderIcon_gl-ep-bxl-phs-hem-avpu01:
     link:
-      url: "https://gl1.grafana.net/d/yu8wqtx/encoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-bxl-phs-hem-avpu01&var-encoder=$__all"
+      url: "https://gl1.grafana.net/d/yu8wqtx4321/encoders-overview?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-bxl-phs-hem-avpu01&var-encoder=$__all"
       params: "none"
       sameTab: false  
   encoderHealth_gl-ep-bxl-phs-hem-avpu02:
-    dataRef: Encoder Health gl-ep-bxl-phs-hem-avpu02
+    dataRef: Health gl-ep-bxl-phs-hem-avpu02
     fillColor:
       gradientMode: "fixed"
       thresholds:
@@ -140,11 +140,11 @@ cells:
         - { color: "orange", level: 2 }
   encoderIcon_gl-ep-bxl-phs-hem-avpu02:
     link:
-      url: "https://gl1.grafana.net/d/yu8wqtx/encoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-bxl-phs-hem-avpu02&var-encoder=$__all"
+      url: "https://gl1.grafana.net/d/yu8wqtx4321/encoders-overview?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-bxl-phs-hem-avpu02&var-encoder=$__all"
       params: "none"
       sameTab: false  
   encoderHealth_gl-ep-stb-hem-avpu01:
-    dataRef: Encoder Health gl-ep-stb-hem-avpu01
+    dataRef: Health gl-ep-stb-hem-avpu01
     fillColor:
       gradientMode: "fixed"
       thresholds:
@@ -153,11 +153,11 @@ cells:
         - { color: "orange", level: 2 }
   encoderIcon_gl-ep-stb-hem-avpu01:
     link:
-      url: "https://gl1.grafana.net/d/yu8wqtx/encoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-stb-hem-avpu01&var-encoder=$__all"
+      url: "https://gl1.grafana.net/d/yu8wqtx4321/encoders-overview?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-stb-hem-avpu01&var-encoder=$__all"
       params: "none"
       sameTab: false  
   encoderHealth_gl-ep-stb-hem-avpu02:
-    dataRef: Encoder Health gl-ep-stb-hem-avpu02
+    dataRef: Health gl-ep-stb-hem-avpu02
     fillColor:
       gradientMode: "fixed"
       thresholds:
@@ -166,7 +166,7 @@ cells:
         - { color: "orange", level: 2 }
   encoderIcon_gl-ep-stb-hem-avpu02:
     link:
-      url: "https://gl1.grafana.net/d/yu8wqtx/encoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-stb-hem-avpu02&var-encoder=$__all"
+      url: "https://gl1.grafana.net/d/yu8wqtx4321/encoders-overview?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-ep-stb-hem-avpu02&var-encoder=$__all"
       params: "none"
       sameTab: false  
 
@@ -181,7 +181,7 @@ cells:
         - { color: "orange", level: 2 }
   switchIcon_gl-ep-bxl-jan-sw01:
     link:
-      url: "https://gl1.grafana.net/d/yuv5x84/backend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-jan-sw01&var-BSW=Routing%20Engine%200"
+      url: "https://gl1.grafana.net/d/yuv5x84fefe/backend-switches-overview?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-jan-sw01&var-BSW=Routing%20Engine%200"
       params: "none"
       sameTab: false  
   switchHealth_gl-ep-bxl-jan-sw02:
@@ -194,7 +194,7 @@ cells:
         - { color: "orange", level: 2 }
   switchIcon_gl-ep-bxl-jan-sw02:
     link:
-      url: "https://gl1.grafana.net/d/yuv5x84/backend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-jan-sw01&var-BSW=Routing%20Engine%201"
+      url: "https://gl1.grafana.net/d/yuv5x84fefe/backend-switches-overview?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-jan-sw01&var-BSW=Routing%20Engine%201"
       params: "none"
       sameTab: false  
   switchHealth_gl-ep-bxl-phs-hem-sw01:
@@ -207,7 +207,7 @@ cells:
         - { color: "orange", level: 2 }
   switchIcon_gl-ep-bxl-phs-hem-sw01:
     link:
-      url: "https://gl1.grafana.net/d/yuv5x84/backend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-phs-hem-sw01&var-BSW=Routing%20Engine%200"
+      url: "https://gl1.grafana.net/d/yuv5x84fefe/backend-switches-overview?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-phs-hem-sw01&var-BSW=Routing%20Engine%200"
       params: "none"
       sameTab: false  
   switchHealth_gl-ep-bxl-phs-hem-sw02:
@@ -220,7 +220,7 @@ cells:
         - { color: "orange", level: 2 }
   switchIcon_gl-ep-bxl-phs-hem-sw02:
     link:
-      url: "https://gl1.grafana.net/d/yuv5x84/backend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-phs-hem-sw01&var-BSW=Routing%20Engine%201"
+      url: "https://gl1.grafana.net/d/yuv5x84fefe/backend-switches-overview?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-phs-hem-sw01&var-BSW=Routing%20Engine%201"
       params: "none"
       sameTab: false  
   switchHealth_gl-ep-stb-phs-hem-sw01:
@@ -233,7 +233,7 @@ cells:
         - { color: "orange", level: 2 }
   switchIcon_gl-ep-stb-phs-hem-sw01:
     link:
-      url: "https://gl1.grafana.net/d/yuv5x84/backend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-stb-hem-sw01&var-BSW=Routing%20Engine%200"
+      url: "https://gl1.grafana.net/d/yuv5x84fefe/backend-switches-overview?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-stb-hem-sw01&var-BSW=Routing%20Engine%200"
       params: "none"
       sameTab: false  
   switchHealth_gl-ep-stb-phs-hem-sw02:
@@ -246,7 +246,7 @@ cells:
         - { color: "orange", level: 2 }
   switchIcon_gl-ep-stb-phs-hem-sw02:
     link:
-      url: "https://gl1.grafana.net/d/yuv5x84/backend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-stb-hem-sw01&var-BSW=Routing%20Engine%201"
+      url: "https://gl1.grafana.net/d/yuv5x84fefe/backend-switches-overview?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-stb-hem-sw01&var-BSW=Routing%20Engine%201"
       params: "none"
       sameTab: false  
 
@@ -261,7 +261,7 @@ cells:
         - { color: "orange", level: 2 }
   firewallIcon_gl-ep-bxl-jan-fw01:
     link:
-      url: "https://gl1.grafana.net/d/fek6xzs/firewall-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-fw"
+      url: "https://gl1.grafana.net/d/fek6xzsefs/firewalls-overview?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-fw"
       params: "none"
       sameTab: false  
   firewallHealth_gl-ep-bxl-phs-hem-fw01:
@@ -274,7 +274,7 @@ cells:
         - { color: "orange", level: 2 }
   firewallIcon_gl-ep-bxl-phs-hem-fw01:
     link:
-      url: "https://gl1.grafana.net/d/fek6xzs/firewall-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-fw"
+      url: "https://gl1.grafana.net/d/fek6xzsefs/firewalls-overview?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-fw"
       params: "none"
       sameTab: false  
   firewallHealth_gl-ep-stb-phs-hem-fw01:
@@ -287,7 +287,7 @@ cells:
         - { color: "orange", level: 2 }
   firewallIcon_gl-ep-stb-phs-hem-fw01:
     link:
-      url: "https://gl1.grafana.net/d/fek6xzs/firewall-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-stb-fw"
+      url: "https://gl1.grafana.net/d/fek6xzsefs/firewalls-overview?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-stb-fw"
       params: "none"
       sameTab: false  
   firewallHealth_gl-ep-stb-phs-hem-fw02:
@@ -300,7 +300,7 @@ cells:
         - { color: "orange", level: 2 }
   firewallIcon_gl-ep-stb-phs-hem-fw02:
     link:
-      url: "https://gl1.grafana.net/d/fek6xzs/firewall-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-stb-fw"
+      url: "https://gl1.grafana.net/d/fek6xzsefs/firewalls-overview?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-stb-fw"
       params: "none"
       sameTab: false  
 
@@ -315,7 +315,7 @@ cells:
         - { color: "orange", level: 2 }
   frontendSwitchIcon_gl-ep-bxl-jan-fsw01:
     link:
-      url: "https://gl1.grafana.net/d/ferf476/frontend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-fsw01&var-FSW=Routing%20Engine%200"
+      url: "https://gl1.grafana.net/d/ferf476ada21/frontend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-fsw01&var-FSW=Routing%20Engine%200"
       params: "none"
       sameTab: false  
   frontendSwitchHealth_gl-ep-bxl-phs-hem-fsw01:
@@ -328,7 +328,7 @@ cells:
         - { color: "orange", level: 2 }
   frontendSwitchIcon_gl-ep-bxl-phs-hem-fsw01:
     link:
-      url: "https://gl1.grafana.net/d/ferf476/frontend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-fsw01&var-FSW=Routing%20Engine%201"
+      url: "https://gl1.grafana.net/d/ferf476ada21/frontend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-bxl-fsw01&var-FSW=Routing%20Engine%201"
       params: "none"
       sameTab: false  
   frontendSwitchHealth_gl-ep-stb-phs-hem-fsw01:
@@ -341,7 +341,7 @@ cells:
         - { color: "orange", level: 2 }
   frontendSwitchIcon_gl-ep-stb-phs-hem-fsw01:
     link:
-      url: "https://gl1.grafana.net/d/ferf476/frontend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-stb-fsw01&var-FSW=Routing%20Engine%200"
+      url: "https://gl1.grafana.net/d/ferf476ada21/frontend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-stb-fsw01&var-FSW=Routing%20Engine%200"
       params: "none"
       sameTab: false  
   frontendSwitchHealth_gl-ep-stb-phs-hem-fsw02:
@@ -354,13 +354,13 @@ cells:
         - { color: "orange", level: 2 }
   frontendSwitchIcon_gl-ep-stb-phs-hem-fsw02:
     link:
-      url: "https://gl1.grafana.net/d/ferf476/frontend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-stb-fsw01&var-FSW=Routing%20Engine%201"
+      url: "https://gl1.grafana.net/d/ferf476ada21/frontend-switch-overview-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-Hostname=gl-ep-stb-fsw01&var-FSW=Routing%20Engine%201"
       params: "none"
       sameTab: false  
 
 #-------------------------------------------TRANSCODERS----------------------------------------------
   transcoderHealth_gl-dus-k3s-01:
-    dataRef: Transcoder Health gl-dus-k3s-01
+    dataRef: Health gl-dus-k3s-01
     fillColor:
       gradientMode: "fixed"
       thresholds:
@@ -369,11 +369,11 @@ cells:
         - { color: "orange", level: 2 }
   transcoderIcon_gl-dus-k3s-01:
     link:
-      url: "https://gl1.grafana.net/d/yu67v94/trancoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-dus-k3s-01&var-transcoder=$__all"
+      url: "https://gl1.grafana.net/d/yu67v94wf4/trancoders-overview?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-dus-k3s-01&var-transcoder=$__all"
       params: "none"
       sameTab: false
   transcoderHealth_gl-dus-k3s-02:
-    dataRef: Transcoder Health gl-dus-k3s-02
+    dataRef: Health gl-dus-k3s-02
     fillColor:
       gradientMode: "fixed"
       thresholds:
@@ -382,11 +382,11 @@ cells:
         - { color: "orange", level: 2 }
   transcoderIcon_gl-dus-k3s-02:
     link:
-      url: "https://gl1.grafana.net/d/yu67v94/trancoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-dus-k3s-02&var-transcoder=$__all"
+      url: "https://gl1.grafana.net/d/yu67v94wf4/trancoders-overview?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-dus-k3s-02&var-transcoder=$__all"
       params: "none"
       sameTab: false
   transcoderHealth_gl-fra-k3s-01:
-    dataRef: Transcoder Health gl-fra-k3s-01
+    dataRef: Health gl-fra-k3s-01
     fillColor:
       gradientMode: "fixed"
       thresholds:
@@ -395,11 +395,11 @@ cells:
         - { color: "orange", level: 2 }
   transcoderIcon_gl-fra-k3s-01:
     link:
-      url: "https://gl1.grafana.net/d/yu67v94/trancoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-fra-k3s-01&var-transcoder=$__all"
+      url: "https://gl1.grafana.net/d/yu67v94wf4/trancoders-overview?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-fra-k3s-01&var-transcoder=$__all"
       params: "none"
       sameTab: false
   transcoderHealth_gl-fra-k3s-02:
-    dataRef: Transcoder Health gl-fra-k3s-02
+    dataRef: Health gl-fra-k3s-02
     fillColor:
       gradientMode: "fixed"
       thresholds:
@@ -408,7 +408,7 @@ cells:
         - { color: "orange", level: 2 }
   transcoderIcon_gl-fra-k3s-02:
     link:
-      url: "https://gl1.grafana.net/d/yu67v94/trancoder-draft?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-fra-k3s-02&var-transcoder=$__all"
+      url: "https://gl1.grafana.net/d/yu67v94wf4/trancoders-overview?orgId=1&from=now-6h&to=now&timezone=browser&var-cluster=gl-fra-k3s-02&var-transcoder=$__all"
       params: "none"
       sameTab: false
 #---------------------------------------------HSG SRT------------------------------------------------
@@ -423,7 +423,7 @@ cells:
         - { color: "green", level: 3 }
   HSG-SRT-Icon_dus:
     link:
-      url: "https://gl1.grafana.net/d/1a67019f-4780-47a5-aec5-6519ac9887b8/haivision-srt-gateways?orgId=1&from=now-3h&to=now&timezone=browser&var-datasource=ddeugnc9e6nswa&var-gateway=https:%2F%2Fhsg-dus.gl-systemhaus.de&var-routes=HSE24&var-routes=bxl-01&var-routes=bxl-02&var-routes=bxl-03&var-routes=bxl-04&var-routes=bxl-05&var-routes=bxl-06&var-routes=bxl-07&var-routes=bxl-08&var-routes=bxl-09&var-routes=bxl-10&var-routes=bxl-11&var-routes=bxl-12&var-routes=bxl-13&var-routes=bxl-14&var-routes=bxl-15&var-routes=bxl-16&var-routes=bxl-17&var-routes=bxl-18&var-routes=bxl-19&var-routes=bxl-20&var-routes=bxl-hem-01&var-routes=bxl-hem-02&var-routes=bxl-hem-03&var-routes=bxl-hem-04&var-routes=stb-hem-01&var-routes=stb-hem-02&var-routes=stb-hem-03&var-routes=stb-hem-04&var-routes=stb-hem-05&var-routes=stb-hem-06&var-routes=stb-hem-07&var-routes=stb-hem-08&refresh=1m"
+      url: "https://gl1.grafana.net/d/1a67019f-4780-47a5-aec5-6519ac9887b5/haivision-srt-gateways-draft??orgId=1&from=now-3h&to=now&timezone=browser&var-datasource=ddeugnc9e6nswa&var-gateway=https:%2F%2Fhsg-dus.gl-systemhaus.de&var-routes=HSE24&var-routes=bxl-01&var-routes=bxl-02&var-routes=bxl-03&var-routes=bxl-04&var-routes=bxl-05&var-routes=bxl-06&var-routes=bxl-07&var-routes=bxl-08&var-routes=bxl-09&var-routes=bxl-10&var-routes=bxl-11&var-routes=bxl-12&var-routes=bxl-13&var-routes=bxl-14&var-routes=bxl-15&var-routes=bxl-16&var-routes=bxl-17&var-routes=bxl-18&var-routes=bxl-19&var-routes=bxl-20&var-routes=bxl-hem-01&var-routes=bxl-hem-02&var-routes=bxl-hem-03&var-routes=bxl-hem-04&var-routes=stb-hem-01&var-routes=stb-hem-02&var-routes=stb-hem-03&var-routes=stb-hem-04&var-routes=stb-hem-05&var-routes=stb-hem-06&var-routes=stb-hem-07&var-routes=stb-hem-08&refresh=1m"
       params: "none"
       sameTab: false
   HSG-SRT-Health_ffm:
@@ -437,6 +437,6 @@ cells:
         - { color: "green", level: 3 }
   HSG-SRT-Icon_ffm:
     link:
-      url: "https://gl1.grafana.net/d/1a67019f-4780-47a5-aec5-6519ac9887b8/haivision-srt-gateways?orgId=1&from=now-3h&to=now&timezone=browser&var-datasource=ddeugnc9e6nswa&var-gateway=https:%2F%2Fhsg-ffm.gl-systemhaus.de&var-routes=HSE24&var-routes=bxl-01&var-routes=bxl-02&var-routes=bxl-03&var-routes=bxl-04&var-routes=bxl-05&var-routes=bxl-06&var-routes=bxl-07&var-routes=bxl-08&var-routes=bxl-09&var-routes=bxl-10&var-routes=bxl-11&var-routes=bxl-12&var-routes=bxl-13&var-routes=bxl-14&var-routes=bxl-15&var-routes=bxl-16&var-routes=bxl-17&var-routes=bxl-18&var-routes=bxl-19&var-routes=bxl-20&var-routes=bxl-hem-01&var-routes=bxl-hem-02&var-routes=bxl-hem-03&var-routes=bxl-hem-04&var-routes=stb-hem-01&var-routes=stb-hem-02&var-routes=stb-hem-03&var-routes=stb-hem-04&var-routes=stb-hem-05&var-routes=stb-hem-06&var-routes=stb-hem-07&var-routes=stb-hem-08&refresh=1m"
+      url: "https://gl1.grafana.net/d/1a67019f-4780-47a5-aec5-6519ac9887b5/haivision-srt-gateways-draft?orgId=1&from=now-3h&to=now&timezone=browser&var-datasource=ddeugnc9e6nswa&var-gateway=https:%2F%2Fhsg-ffm.gl-systemhaus.de&var-routes=HSE24&var-routes=bxl-01&var-routes=bxl-02&var-routes=bxl-03&var-routes=bxl-04&var-routes=bxl-05&var-routes=bxl-06&var-routes=bxl-07&var-routes=bxl-08&var-routes=bxl-09&var-routes=bxl-10&var-routes=bxl-11&var-routes=bxl-12&var-routes=bxl-13&var-routes=bxl-14&var-routes=bxl-15&var-routes=bxl-16&var-routes=bxl-17&var-routes=bxl-18&var-routes=bxl-19&var-routes=bxl-20&var-routes=bxl-hem-01&var-routes=bxl-hem-02&var-routes=bxl-hem-03&var-routes=bxl-hem-04&var-routes=stb-hem-01&var-routes=stb-hem-02&var-routes=stb-hem-03&var-routes=stb-hem-04&var-routes=stb-hem-05&var-routes=stb-hem-06&var-routes=stb-hem-07&var-routes=stb-hem-08&refresh=1m"
       params: "none"
       sameTab: false
